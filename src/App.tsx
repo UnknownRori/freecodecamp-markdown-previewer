@@ -52,7 +52,7 @@ function App() {
       <h1 className="text-3xl font-bold">
         Markdown Previewer
       </h1>
-      <div className="flex gap-4 sm:flex-col lg:flex-row w-[80vw]">
+      <div className="flex gap-4 sm:flex-col w-[80vw]">
         <EditorProvider content={defaultContentMarkdown}>
           <Editor />
           <Preview />
